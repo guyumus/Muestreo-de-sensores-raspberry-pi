@@ -8,7 +8,7 @@ Created on Tue Mar  2 12:56:27 2021
 # Importamos RPI.GPIO para permitir que nuestro código
 # se comunique con el sensor.
 import RPi.GPIO as GPIO
-# Se importa time para poder estimar el tiempo de diferencia de entre el momento
+# Se importa time para poder estimar el tiempo de diferencia entre el momento
 # en que se envió la señal y cuando el sensor la recibió
 import time
 # Se importa count para realizar el conteo para el jeustreo y para graficar
