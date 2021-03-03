@@ -11,7 +11,7 @@ import RPi.GPIO as GPIO
 # Se importa time para poder estimar el tiempo de diferencia entre el momento
 # en que se envió la señal y cuando el sensor la recibió
 import time
-# Se importa count para realizar el conteo para el jeustreo y para graficar
+# Se importa count para realizar el conteo para el meustreo y para graficar
 # el tiempo en el eje x
 from itertools import count
 # Se importa Matplotlib para realizar la gráfica en tiempo real de los sensores
@@ -60,7 +60,7 @@ def distance():
  
     # Se calcula el tiempo de diferencia de la salida y llegada de la señal
     TimeElapsed = StopTime - StartTime
-    # Se multiplica por la velocidad del sonido y se divide entre dos devido a
+    # Se multiplica por la velocidad del sonido y se divide entre dos debido a
     # que la señal va de ida y vuelta
     distance = (TimeElapsed * 34300) / 2
  
@@ -72,7 +72,7 @@ def animate(i):
     # Se indexa tanto el valor de tiempo como de distancia
     x_vals.append(next(index))
     y_vals.append(dist)
-    # Se imprime el valor de temperatura en la consola
+    # Se imprime el valor de distancia en la consola
     print ("Measured Distance = %.1f cm" % dist)
     # Se borran los datos graficados para que al recibir un nuevo dato, este
     # no cambie el color de la gráfica en tiempo real
