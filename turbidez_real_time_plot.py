@@ -8,14 +8,13 @@ Created on Tue Mar  2 12:38:37 2021
 # Importamos Adafruit_ADSx15 para permitir que nuestro proyecto 
 # se comunique con nuestro módulo
 import Adafruit_ADS1x15
-# Se importa count para realizar el conteo para el jeustreo y para graficar
+# Se importa count para realizar el conteo para el meustreo y para graficar
 # el tiempo en el eje x
 from itertools import count
 # Se importa Matplotlib para realizar la gráfica en tiempo real de los sensores
 # esto se logra con FuncAnimation
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
-
 
 # Se crea un objeto para almacenar la conexión con nuestro módulo
 adc = Adafruit_ADS1x15.ADS1115()
