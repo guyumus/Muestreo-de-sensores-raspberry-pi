@@ -7,7 +7,7 @@ Created on Tue Mar  2 12:35:38 2021
 # Importamos w1thermsensor para permitir que nuestro código
 # se comunique con el sensor.
 from w1thermsensor import W1ThermSensor
-# Se importa count para realizar el conteo para el jeustreo y para graficar
+# Se importa count para realizar el conteo para el meustreo y para graficar
 # el tiempo en el eje x
 from itertools import count
 # Se importa Matplotlib para realizar la gráfica en tiempo real de los sensores
