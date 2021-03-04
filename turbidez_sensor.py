@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Mar  2 12:38:37 2021
-
-@author: Estudiante
-"""
 # importamos "time" para controlar la frecuencia con la que se recopilan los 
 # datos del sensor e importamos Adafruit_ADS1x15 para permitir que nuestro proyecto
 # se comunique con nuestro módulo
@@ -35,4 +29,3 @@ while True:
     print('| {0:>6} |'.format(*values))
     # Se espera medio segundo para tomar el siguiente dato
     time.sleep(0.5)
-
